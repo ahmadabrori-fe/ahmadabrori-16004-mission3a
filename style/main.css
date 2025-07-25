@@ -7,4 +7,13 @@
 }
 header {
   display: flex;
+  justify-content: space-between;
+  width: 360px;
+  height: 74px;
+  border-top: 1px;
+  border-bottom: 1px;
+  padding: 16px 24px;
+}
+header .logo {
+  width: 152px;
 }
