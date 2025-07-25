@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | videobelajar</title>
+    <link
+      rel="shortcut icon"
+      href="./images/logo-mini.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style/auth-login.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <img class="logo" src="./images/videobelajar-logo.png" alt="logo" />
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="title">
+          <h1>Masuk ke Akun</h1>
+          <p class="subtitle">Yuk, Lanjutin belajarmu di videobelajar.</p>
+        </div>
+        <form class="form">
+          <label for="username">E-mail<span class="star">*</span></label>
+          <input
+            class="input"
+            type="email"
+            name="username"
+            id="username"
+            placeholder="Masukkan email anda"
+            required
+          />
+          <div class="form-password">
+            <label for="password">Kata Sandi<span class="star">*</span></label>
+            <input
+              class="input"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Masukkan password anda"
+              required
+            />
+            <img class="eye" src="./images/eye.png" alt="eye" />
+          </div>
+          <div class="forgot-the-pass">
+            <a id="forgot-password" href="#">Lupa Password?</a>
+          </div>
+          <button class="button-login" type="submit">Masuk</button>
+          <button class="button-register" type="button">
+            <a id="register" href="./pages/register.html">Daftar</a>
+          </button>
+          <div class="or">
+            <p class="or-text">atau</p>
+          </div>
+          <img src="./images/Divider.png" alt="divder" />
+          <div class="button-signin-with-google">
+            <button class="login-with-google" type="button">
+              <img
+                id="google-icon"
+                src="./images/logo-google.png"
+                alt="logo-google"
+              />
+              Masuk dengan Google
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
