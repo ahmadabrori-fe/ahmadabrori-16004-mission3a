@@ -23,6 +23,7 @@
 .container {
   width: 320px;
   height: 514px;
+  font-size: 14px;
   background-color: rgba(255, 255, 255, 1);
   padding: 20px;
   border: 1px solid rgba(241, 241, 241, 1);
@@ -41,7 +42,6 @@
 }
 .subtitle {
   color: rgba(51, 51, 51, 0.68);
-  font-size: 14px;
   letter-spacing: 0.2px;
 }
 .form {
@@ -97,6 +97,7 @@
 }
 .star {
   color: red;
+  margin: 2px;
 }
 .form button {
   width: 280px;
@@ -150,4 +151,51 @@ button {
   width: 18px;
   left: 35px;
   bottom: 7px;
+}
+@media screen and (min-width: 500px) {
+  .header {
+    width: 100%;
+    padding: 12px 120px;
+  }
+  .main {
+    padding: 64px 120px;
+    height: 944px;
+    gap: 36px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 590px;
+    height: 617px;
+    padding: 36px;
+    border-radius: 4px;
+  }
+  .title .h1 {
+    font-size: 32px;
+  }
+  .form label {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .form input {
+    width: 518px;
+    height: 48px;
+  }
+  .eye {
+    bottom: 32px;
+  }
+  .container button {
+    width: 518px;
+    height: 42px;
+  }
+  .divider {
+    height: 2px;
+  }
+  #google-icon {
+    left: 155px;
+    bottom: 11px;
+    height: 20px;
+    width: 20px;
+  }
 }
